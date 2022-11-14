@@ -1,0 +1,57 @@
+[
+	{
+		"title": "Singles",
+		"songs": [
+			{
+				"name": "Bienvenida",
+				"filename": "bienvenida.mp3"
+			},
+			{
+				"name": "Flask",
+				"filename": "Flask.mp3"
+			},
+			{
+				"name": "River Loop",
+				"filename": "River Loop.mp3"
+			},
+			{
+				"name": "Times New Rollman",
+				"filename": "times new rollman.mp3"
+			}
+		]
+	},
+	{
+		"title": "Everest",
+		"songs": [
+			{
+				"name": "Inside",
+				"filename": "Inside.mp3"
+			},
+			{
+				"name": "kaoaos",
+				"filename": "kaoaos.mp3"
+			},
+			{
+				"name": "Soy Detective",
+				"filename": "Soy Detective.mp3"
+			}
+		]
+	},
+	{
+		"title": "Leben Ohne Form",
+		"songs": [
+			{
+				"name": "Breathing Underwater",
+				"filename": "Breathing Underwater.mp3"
+			},
+			{
+				"name": "Heavy Air",
+				"filename": "Heavy Air.mp3"
+			},
+			{
+				"name": "Drowned Choir",
+				"filename": "Drowned Choir.mp3"
+			}
+		]
+	}	
+]

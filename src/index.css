@@ -1,0 +1,95 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+
+  color-scheme: dark;
+
+  --color-dark: #191516;
+  --color-light: #E2E4BB;
+
+  --color-bg-primary: #CC7733;
+  --color-bg-secondary: #AAAA33;
+
+  --color-card-primary: #884400;
+  --color-card-secondary: #888800;
+
+  color: var(--color-light);
+
+}
+
+::selection {
+  background: black;
+}
+
+a {
+
+  color: #9966BB;
+  font-weight: 500;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #CC66EE;
+}
+
+body {
+  background-color: #0a0a0a;
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+
+#root{
+  max-width: 1280px; 
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+.app-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.front-body {
+  z-index: 100;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.back-body {
+  z-index: 100;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  -webkit-mask-image: url("./assets/topography.svg");
+  mask-image: url("./assets/topography.svg");
+  background-image: linear-gradient(120deg, #44FF66, #EE7722);
+  filter: brightness(40%) contrast(120%);
+}
+
+h1 {
+  font-size: 3.2em; 
+  line-height: 1.1;
+}
+
+button {
+  border: none;
+  width: 100%;
+}
