@@ -8,7 +8,7 @@ function NotFound() {
       <div className='front-body'>
             
         <div className="main-content">
-            
+            <button className="back-button" onClick={()=>{navigate(-1)}}>Go back</button>
             <h1 className="title">Not Found</h1>
         </div>
 

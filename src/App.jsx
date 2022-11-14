@@ -6,6 +6,9 @@ import Root from './routes/Root';
 import Music from './routes/Music';
 import NotFound from './routes/NotFound';
 import Projects from './routes/Projects';
+import BackListener from './routes/BackListener';
+
+import { MusicProvider } from "./context/MusicContext";
 
 function App() {  
 
@@ -16,13 +19,15 @@ function App() {
     { path: "*", element: <NotFound />},
   ]);
 
-
   return (
     <div className='app-container'>
 
-      <div className='back-body'></div>
-      
-      <RouterProvider router={router}/>
+      <MusicProvider>
+        <BackListener />
+        <div className='back-body'></div>
+        
+        <RouterProvider router={router}/>
+      </MusicProvider>
 
     </div>
   )

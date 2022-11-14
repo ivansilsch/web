@@ -19,8 +19,9 @@ function AudioPlayerBar() {
       updateProgressInterval();
       state.player?.play();
     } else if (state.audioStatus === AudioStatus.STOPPED) {
-      pause();
-      state.player?.stop();
+      // console.log("DEBE DETENERSE//!!");
+      // pause();
+      // state.player?.stop();
     }
   }, [state.audioStatus]);
 

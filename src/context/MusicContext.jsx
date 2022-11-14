@@ -11,7 +11,7 @@ export const MusicProvider = (props) => {
 		player: null,
 		audioStatus: AudioStatus.STOPPED,
 		currentAudioFile: "",
-		audioSourceEndpoint: "http://ivansilvadotme.000webhostapp.com/music.ivansilva.me",
+		audioSourceEndpoint: "https://ivansilvadotme.000webhostapp.com/music.ivansilva.me",
 	});
 
 	const [progress, setProgress] = useState(0);

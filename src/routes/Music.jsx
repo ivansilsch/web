@@ -1,24 +1,22 @@
 import MusicList from "./../components/MusicList"
 import AudioPlayerBar from "./../components/AudioPlayerBar";
 
-import { MusicProvider } from "./../context/MusicContext";
-
-import GoBack from "./GoBack";
+import { useNavigate } from "react-router-dom";
 
 
 function Music() {
 
+    const navigate = useNavigate();
+
     return (
       <div className='front-body'>
-        
-        <MusicProvider>
-            <AudioPlayerBar/>
-            <div className="main-content">
-                <GoBack/>  
-                <h1 className="title">Music.</h1>
-                <MusicList/>
-            </div>
-        </MusicProvider>
+
+        <AudioPlayerBar/>
+        <div className="main-content">
+            <button className="back-button" onClick={()=>{navigate(-1)}}>Go back</button>
+            <h1 className="title">Music.</h1>
+            <MusicList/>
+        </div>
 
         <footer> <small>&copy; Copyright 2022, Ivan Silva</small> </footer> 
         </div>

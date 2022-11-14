@@ -1,10 +1,9 @@
 import { useContext } from "react";
-
 import MusicContext from "./../context/MusicContext";
+import AudioStatus from './../context/AudioStatus';
 
 import { Howl } from "howler";
 
-import AudioStatus from './../context/AudioStatus';
 
 
 function Song(props) {
