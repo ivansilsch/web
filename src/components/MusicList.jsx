@@ -23,10 +23,6 @@ function MusicList() {
 
   return (
     <div>
-      <br/>  
-      <br/>  
-      <br/>  
-
       <div className="albums">
         {
           musicData?.map((album, index) => {

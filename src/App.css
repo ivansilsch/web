@@ -55,11 +55,11 @@ footer {
 }
 
 .projects-shape {
-  background: #22AA55;
+  background: #22AA33;
 }
 
 .music-shape {
-  background: #AA5522;
+  background: #BB5522;
 }
 
 .misc-shape {
@@ -209,8 +209,34 @@ footer {
   color: #22AA55;
 }
 
+.projects {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
 
+.project {
+  padding: 1rem;
+  background-color: #0b0b0b;
+  border-radius: 3px;
+  transition: 80ms;
+}
 
+.project:hover {
+  background-color: #111111;
+  filter: contrast(110%);
+  transition: 80ms;
+}
+
+.project-title {
+  color: #22AA33;
+  text-shadow: none;
+}
+
+.project-description {
+  color: #aaa;
+  text-shadow: none;
+}
 
 
 
@@ -286,3 +312,6 @@ footer {
   background-color: #222;
   cursor: pointer;
 }
+
+
+

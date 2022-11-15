@@ -23,7 +23,7 @@ const BackListener = () => {
         setActive(false);
       }
     });   
-    return <>{active.toString()}</>;
+    return <></>;
 }
 
 export default BackListener;

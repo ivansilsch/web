@@ -31,12 +31,15 @@
 }
 
 a {
+  text-decoration: inherit;
+}
 
+.link {
   color: #9966BB;
   font-weight: 500;
   text-decoration: inherit;
 }
-a:hover {
+.link:hover {
   color: #CC66EE;
 }
 

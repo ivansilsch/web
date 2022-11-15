@@ -10,7 +10,7 @@ function Topics() {
         </div>
 
         <br/> 
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/ivansilsch">Github</a>
+        <a className="link" target="_blank" rel="noopener noreferrer" href="https://github.com/ivansilsch">Github</a>
       </div>
       <div className="topics-right">
         <Link to="/projects" className="topic projects-shape">Projects</Link>

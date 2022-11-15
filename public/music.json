@@ -53,5 +53,18 @@
 				"filename": "Drowned Choir.mp3"
 			}
 		]
+	},
+	{
+		"title": "Generating Random Samples",
+		"songs": [
+			{
+				"name": "Generating Random Samples",
+				"filename": "Generating Random Samples.mp3"
+			},
+			{
+				"name": "Genetical Workflow",
+				"filename": "Genetical Workflow.mp3"
+			}
+		]
 	}	
 ]
